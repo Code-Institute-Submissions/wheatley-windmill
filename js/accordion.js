@@ -1,16 +1,16 @@
-let section = document.getElementsByClassName("accordion");
-let i;
+var accItem = document.getElementsByClassName('accordionItem');
+var accHD = document.getElementsByClassName('accordionItemHeading');
 
-for (i = 0; i < section.length; i++) {
-  section[i].addEventListener("click", function() {
-    this.classList.toggle("active");
+for (i = 0; i < accHD.length; i++) {
+    accHD[i].addEventListener('click', toggleItem, false);
+}
 
-    let tour = this.nextElementSibling;
-    if (tour.style.maxHeight) {
-      tour.style.maxHeight = null;
-    } 
-    else {
-      tour.style.maxHeight = tour.scrollHeight + "px";
-    } 
-  });
+function toggleItem() {
+    var itemClass = this.parentNode.className;
+    for (i = 0; i < accItem.length; i++) {
+        accItem[i].className = 'accordionItem close';
+    }
+    if (itemClass == 'accordionItem close') {
+        this.parentNode.className = 'accordionItem open';
+    }
 }

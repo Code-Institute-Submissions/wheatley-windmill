@@ -1,52 +1,58 @@
 <!doctype html>
-	<html lang="en-GB">
+    <html lang="en-GB">
 
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="author" content="Paul Jégou">
-		<link rel="stylesheet" type="text/css" href="css/general.css">
-		<link rel="stylesheet" type="text/css" href="css/accordion.css">
-		<title>Tour the Wheatley Windmill</title>
-	</head>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Paul Jégou">
+        <link rel="stylesheet" type="text/css" href="css/accordion.css">
+        <title>Tour the Wheatley Windmill</title>
+    </head>
 
-	<body>
+    <body>
 
-		<h1>Tour the Wheatley Windmill</h1>
-		<p>Explore and learn about the mill and how it works. Just click on any of the sections below to get started...</p>
+        <h1>Tour the Wheatley Windmill</h1>
+        <p>Explore and learn about the mill and how it works. Just click on any of the sections below to get started...<br><br></p>
 
-		<button class="accordion">Cap Tail</button>
-		<div class="tour">
-  		<iframe src="marzipano/tail.html" title="Cap Tail Virtual Tour"></iframe>
-		</div>
+        <section class="accordionItem close">
+            <h2 class="accordionItemHeading" id="tail">Cap Tail</h2>
+            <div class="accordionItemContent">
+                <iframe src="marzipano/tail.html" title="Cap Tail Virtual Tour"></iframe>
+            </div>
+        </section>
+        <section class="accordionItem close">
+            <h2 class="accordionItemHeading" id="dust">Dust Floor</h2>
+            <div class="accordionItemContent">
+                <iframe src="marzipano/dust.html" title="Dust Floor Virtual Tour"></iframe>
+            </div>
+        </section>
+        <section class="accordionItem close">
+            <h2 class="accordionItemHeading" id="bin">Bin Floor</h2>
+            <div class="accordionItemContent">
+                <iframe src="marzipano/bin.html" title="Bin Floor Virtual Tour"></iframe>
+            </div>
+        </section>
+        <section class="accordionItem close">
+            <h2 class="accordionItemHeading" id="stone">Stone Floor</h2>
+            <div class="accordionItemContent">
+                <iframe src="marzipano/stone.html" title="Stone Floor Virtual Tour"></iframe>
+            </div>
+        </section>
+        <section class="accordionItem close">
+            <h2 class="accordionItemHeading" id="meal">Meal Floor</h2>
+            <div class="accordionItemContent">
+                <iframe src="marzipano/meal.html" title="Meal Floor Virtual Tour"></iframe>
+            </div>
+        </section>
+        <section class="accordionItem close">
+            <h2 class="accordionItemHeading" id="exterior">Exterior</h2>
+            <div class="accordionItemContent">
+                <iframe src="marzipano/exterior.html" title="Exterior Virtual Tour"></iframe>
+            </div>
+        </section>
 
-		<button class="accordion">Dust Floor</button>
-		<div class="tour">
-  		<iframe src="marzipano/dust.html" title="Dust Floor Virtual Tour"></iframe>
-		</div>
+        <script src="js/accordion.js"></script>
 
-		<button class="accordion">Bin Floor</button>
-		<div class="tour">
-  		<iframe src="marzipano/bin.html" title="Bin Floor Virtual Tour"></iframe>
-		</div>
+    </body>
 
-		<button class="accordion">Stone Floor</button>
-		<div class="tour">
-  		<iframe src="marzipano/tail.html" title="Stone Floor Virtual Tour"></iframe>
-		</div>
-
-		<button class="accordion">Meal Floor</button>
-		<div class="tour">
-  		<iframe src="marzipano/dust.html" title="Meal Floor Virtual Tour"></iframe>
-		</div>
-
-		<button class="accordion">Exterior</button>
-		<div class="tour">
-  		<iframe src="marzipano/bin.html" title="Exterior Virtual Tour"></iframe>
-		</div>
-
-		<script src="js/accordion.js"></script>
-
-	</body>
-	
 </html>
