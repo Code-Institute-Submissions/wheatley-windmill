@@ -117,7 +117,7 @@ iframe {
     height: 45vw;
 }
 
-@media only screen and (orientation: landscape) {
+@media only screen and (orientation: portrait) {
     iframe {
         height: 180vw;
     }
