@@ -41,13 +41,13 @@ var APP_DATA = {
           "yaw": -1.4255440595584314,
           "pitch": 0.3065835036152116,
           "title": "Brake lever",
-          "text": "<div>Fitted at one end to a pivot so that when the free end is raised it releases tension on the brake band. When it is allowed to fall the band is constricted around the wheel stopping its motion (in a similar way to a drum brake on a car). This is achieved by the weight of the brake lever alone. Once set it can be held in the off position via the use of a hitch. It can then be applied remotely via a rope that hangs outside down the back of mill and that passed into the mill cap to be attached to the top of the lever via a pulley.</div><div><br></div>"
+          "text": "Fitted at one end to a pivot so that when the free end is raised it releases tension on the brake band. When it is allowed to fall the band is constricted around the wheel stopping its motion (in a similar way to a drum brake on a car). This is achieved by the weight of the brake lever alone. Once set it can be held in the off position via the use of a hitch. It can then be applied remotely via a rope that hangs outside down the back of mill and that passed into the mill cap to be attached to the top of the lever via a pulley."
         },
         {
           "yaw": 0.6391027907533235,
           "pitch": -0.15284061079887934,
           "title": "Brake",
-          "text": "<div>Attached to the windshaft&nbsp; is a large, almost vertical wheel called the brake wheel. Placed around the outside of this wheel is the brake band. This consists of a ring of wood surrounded by a metal band. One end of the band is attached to the cap frame, the other is attached to the brake lever.</div>"
+          "text": "Attached to the windshaft is a large, almost vertical wheel called the brake wheel. Placed around the outside of this wheel is the brake band. This consists of a ring of wood surrounded by a metal band. One end of the band is attached to the cap frame, the other is attached to the brake lever."
         }
       ]
     },
@@ -110,7 +110,7 @@ var APP_DATA = {
           "yaw": 2.7159876755817987,
           "pitch": -0.3538895125270489,
           "title": "Brake wheel",
-          "text": "<div>A very large cogged wheel mounted midway along the windshaft so that it stands almost vertically in the cap. It serves two purposes. The first is to translate the horizontal rotation of the windshaft into the vertical rotation of the main shaft. To do this the cogs on the brake wheel mesh with the cogs of the wallower which is mounted on the top of the main shaft. The second function is to provide a method to stop the sails turning. To this end the brake wheel is surrounded by a brake band which is tightened to grip the wheel and thus stop its rotation.</div>"
+          "text": "A very large cogged wheel mounted midway along the windshaft so that it stands almost vertically in the cap. It serves two purposes. The first is to translate the horizontal rotation of the windshaft into the vertical rotation of the main shaft. To do this the cogs on the brake wheel mesh with the cogs of the wallower which is mounted on the top of the main shaft. The second function is to provide a method to stop the sails turning. To this end the brake wheel is surrounded by a brake band which is tightened to grip the wheel and thus stop its rotation."
         }
       ]
     },
@@ -161,7 +161,7 @@ var APP_DATA = {
           "yaw": -2.605078537198626,
           "pitch": 0.4602085514950751,
           "title": "Windshaft",
-          "text": "A large shaft of wood reinforced by iron bands in which the metal sail boss is embedded in one end. It is mounted into a brass bearing at a small angle off the horizontal in the cap. The sail boss (cast by the Eagle foundry in 1784) is embedded into the windshaft and protrudes out of the front of the cap. It is to this that the sails are connected. The job of the windshaft is to take the rotational motion of the sails into the cap where it can be transferred to the main shaft&nbsp; to power the mill machinery. In order to do this mounted midway along the windshaft is the brake wheel."
+          "text": "A large shaft of wood reinforced by iron bands in which the metal sail boss is embedded in one end. It is mounted into a brass bearing at a small angle off the horizontal in the cap. The sail boss (cast by the Eagle foundry in 1784) is embedded into the windshaft and protrudes out of the front of the cap. It is to this that the sails are connected. The job of the windshaft is to take the rotational motion of the sails into the cap where it can be transferred to the main shaft to power the mill machinery. In order to do this mounted midway along the windshaft is the brake wheel."
         }
       ]
     },
@@ -269,7 +269,7 @@ var APP_DATA = {
           "yaw": -1.3613043679453227,
           "pitch": -0.04822798599241196,
           "title": "Cast iron rollers",
-          "text": "The cap is supported by cast iron rollers running in cast iron tracks.<div><br></div><div>How many rollers are there?</div>"
+          "text": "The cap is supported by cast iron rollers running in cast iron tracks."
         }
       ]
     },
@@ -365,7 +365,7 @@ var APP_DATA = {
           "yaw": 1.7113118799966198,
           "pitch": 0.6897400121089419,
           "title": "Wallower",
-          "text": "A large cogged wheel that is set horizontally and fixed to the top of the main shaft in the base of the cap.&nbsp;The cogs on the wheel mesh with the cogs on the brake wheel, thus windshaft power is transmitted via these wheels to the main shaft and the rest of the mill. As these wheels are set at an angle to each other the horizontal rotational movement of the sails is transmitted into vertical rotation movement. The wallower is held in place by a hash-shaped frame called the clasp arm.<div><br></div><div>What are the cogs made of?</div>"
+          "text": "A large cogged wheel that is set horizontally and fixed to the top of the main shaft in the base of the cap. The cogs on the wheel mesh with the cogs on the brake wheel, thus windshaft power is transmitted via these wheels to the main shaft and the rest of the mill. As these wheels are set at an angle to each other the horizontal rotational movement of the sails is transmitted into vertical rotation movement. The wallower is held in place by a hash-shaped frame called the clasp arm."
         }
       ]
     }

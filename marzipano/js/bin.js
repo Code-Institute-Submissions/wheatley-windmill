@@ -47,7 +47,7 @@ var APP_DATA = {
           "yaw": -1.1529689540254182,
           "pitch": -0.10063740839448165,
           "title": "Main shaft",
-          "text": "A large vertical shaft of solid wood and the drive shaft of the mill. It runs down the centre of the mill from the base of the cap to the ceiling of the ground floor. Its purpose is to take the power supplied by the sails and to transmit it to all of the mill machinery.&nbsp;<div><br><div>Can you name the gears at both ends of the main shaft?<br><div><br></div></div></div>"
+          "text": "A large vertical shaft of solid wood and the drive shaft of the mill. It runs down the centre of the mill from the base of the cap to the ceiling of the ground floor. Its purpose is to take the power supplied by the sails and to transmit it to all of the mill machinery.<br><br>Can you name the gears at both ends of the main shaft?<br><br>Top  <input id='top' type='text'><br>Bottom  <input id='bottom' type='text'><br><br><button onclick='mainshaftAnswer()'>Answer</button>"
         }
       ]
     },
@@ -212,3 +212,5 @@ var APP_DATA = {
     "viewControlButtons": true
   }
 };
+
+

@@ -179,7 +179,7 @@ var APP_DATA = {
           "yaw": -3.1028965872804424,
           "pitch": -0.4336412767069824,
           "title": "Sails",
-          "text": "The mill has four sails, which are known as \"common\" sails. These consist of a wooden frame attached to the large cross timbers called stocks, which are covered in a canvas-like material when the mill is in operation.<div><br></div><div>In which direction do the sails turn?</div>"
+          "text": "The mill has four sails, which are known as \"common\" sails. These consist of a wooden frame attached to the large cross timbers called stocks, which are covered in a canvas-like material when the mill is in operation."
         }
       ]
     },
@@ -330,7 +330,7 @@ var APP_DATA = {
           "yaw": 0.7794689580916572,
           "pitch": -0.18196122201701925,
           "title": "Doors",
-          "text": "<div>Provided access for the miller and to take the milled flour out of the mill. The doors are on opposing faces so that no matter which direction the sails were set one door would remain unobstructed and would be safe to use.</div><div><br></div><div>Where else can you find a door in the mill?</div><div>- Stone floor</div><div>- Grain floor</div><div>- Cap</div>"
+          "text": "Provided access for the miller and to take the milled flour out of the mill. The doors are on opposing faces so that no matter which direction the sails were set one door would remain unobstructed and would be safe to use."
         }
       ]
     }

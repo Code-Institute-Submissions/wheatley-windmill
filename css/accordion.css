@@ -5,8 +5,9 @@ body {
     color: rgb(193,154,107);
 }
 
-h1, p {
+header {
     width: 90vw;
+    margin: auto;
 }
 
 h1 {
@@ -18,6 +19,7 @@ h1 {
 }
 
 p {
+    width: 80vw;
     margin: auto;
     font-family: 'Roboto Slab', serif;
     font-size: 2.5vw;
@@ -49,11 +51,8 @@ h2 {
 
 .accordionItemHeading:hover {
     color: rgb(40,40,40);
+    -webkit-filter: saturate(200%);
     filter: saturate(200%);
-}
-
-#tail {
-    background-image: url("../img/Plank1.jpg");
 }
 
 #tail {
@@ -82,6 +81,8 @@ h2 {
 
 .close .accordionItemContent {
     height: 0;
+    -webkit-transition: height 1s ease-out;
+    -o-transition: height 1s ease-out;
     transition: height 1s ease-out;
     -webkit-transform: scaleY(0);
     -o-transform: scaleY(0);
@@ -103,7 +104,11 @@ h2 {
     -webkit-transition: -webkit-transform 1s ease-out;
     -o-transition: -o-transform 1s ease;
     -ms-transition: -ms-transform 1s ease;
+    -webkit-transition: -webkit-transform 1s ease;
+    transition: -webkit-transform 1s ease;
+    -o-transition: transform 1s ease;
     transition: transform 1s ease;
+    transition: transform 1s ease, -webkit-transform 1s ease;
 }
 
 .open .accordionItemHeading {
@@ -121,4 +126,20 @@ iframe {
     iframe {
         height: 180vw;
     }
+}
+
+aside {
+    width: 80vw;
+    margin: auto;
+    font-family: 'Roboto Slab', serif;
+}
+
+aside h2 {
+    font-size: 5vw;
+    line-height: 5vw;
+}
+
+aside h3 {
+    font-size: 3.25vw;
+    line-height: 2.5vw;
 }

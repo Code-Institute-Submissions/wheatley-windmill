@@ -103,13 +103,13 @@ var APP_DATA = {
           "yaw": -0.9345099177961735,
           "pitch": 0.04392310318018744,
           "title": "Damsel",
-          "text": "<div>The upright lobed metal shaft which turned as the stone turned and joggled away at the shoe. So called because it never stopped chattering!</div>"
+          "text": "The upright lobed metal shaft which turned as the stone turned and joggled away at the shoe. So called because it never stopped chattering!"
         },
         {
           "yaw": -2.553211646853864,
           "pitch": 0.9001212808865926,
           "title": "Stone case",
-          "text": "<div>Around the set of millstones is the stone case. This is a wooden cylinder held together by iron bands. Its purpose is to collect the flour that comes from the millstones so that is can fall through a chute in the floor to be bagged.</div>"
+          "text": "Around the set of millstones is the stone case. This is a wooden cylinder held together by iron bands. Its purpose is to collect the flour that comes from the millstones so that is can fall through a chute in the floor to be bagged."
         },
         {
           "yaw": -1.8877013022894484,
@@ -172,7 +172,7 @@ var APP_DATA = {
           "yaw": 1.2350025233708273,
           "pitch": -0.05188909550075138,
           "title": "Boulter",
-          "text": "<div>A large automated sieve that is used to refine the flour. It consists of a wooden frame in which an angled drum of stretched cloth rotates, powered by the mill. The milled flour is fed in at the top of the drum and the flour is spun out through three different thicknesses of cloth leaving the bran to be collected at the base of the drum. These three different qualities of refined flour are then collected in sacks beneath the machine. In effect the boulter operates in much the same way as a spin dryer.</div>"
+          "text": "A large automated sieve that is used to refine the flour. It consists of a wooden frame in which an angled drum of stretched cloth rotates, powered by the mill. The milled flour is fed in at the top of the drum and the flour is spun out through three different thicknesses of cloth leaving the bran to be collected at the base of the drum. These three different qualities of refined flour are then collected in sacks beneath the machine. In effect the boulter operates in much the same way as a spin dryer."
         }
       ]
     },

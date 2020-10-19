@@ -178,13 +178,13 @@ var APP_DATA = {
           "yaw": 2.554445184000741,
           "pitch": -0.2112891657154119,
           "title": "Spur wheel",
-          "text": "<div>A large horizontal cogged wheel that is situated at the bottom of the main shaft. The purpose of the spur wheel is to transmit the rotation of the main shaft to the stone nuts and thus the millstones.</div>"
+          "text": "A large horizontal cogged wheel that is situated at the bottom of the main shaft. The purpose of the spur wheel is to transmit the rotation of the main shaft to the stone nuts and thus the millstones."
         },
         {
           "yaw": -1.1025643456053675,
           "pitch": 0.2582245797712961,
           "title": "Yoke",
-          "text": "Used to help carry such items as sacks of grain or buckets of milk. Where was it worn?<div>- on the shoulders</div>"
+          "text": "Used to help carry such items as sacks of grain or buckets of milk, worn on the shoulders"
         }
       ]
     },
@@ -247,7 +247,7 @@ var APP_DATA = {
           "yaw": -1.4210946561430138,
           "pitch": 0.02901927556588113,
           "title": "Drive shaft",
-          "text": "<div>Used to transmit power to an ochre crushing mill, which was situated outside the mill and used to crush ochre from Wheatley and Shotover hill.</div>"
+          "text": "Used to transmit power to an ochre crushing mill, which was situated outside the mill and used to crush ochre from Wheatley and Shotover hill."
         },
         {
           "yaw": -0.9473754131350756,
@@ -322,7 +322,7 @@ var APP_DATA = {
           "yaw": -1.0429667651406387,
           "pitch": 0.20022544993260105,
           "title": "Fireplace",
-          "text": "<div>It is rather unusual to find a fireplace in a windmill given the flammable nature of flour and wooden machinery but there are examples of mills with them. The Wheatley mill has not one but two fireplaces on opposing sides of the ground floor. The flue of each fireplace is built into the tower walls, and they exit nearer the top of the tower through a pair of slits in the outer wall.</div>"
+          "text": "It is rather unusual to find a fireplace in a windmill given the flammable nature of flour and wooden machinery but there are examples of mills with them. The Wheatley mill has not one but two fireplaces on opposing sides of the ground floor. The flue of each fireplace is built into the tower walls, and they exit nearer the top of the tower through a pair of slits in the outer wall."
         },
         {
           "yaw": -0.7396936179171227,

@@ -47,7 +47,7 @@ var APP_DATA = {
           "yaw": -2.8921537875339993,
           "pitch": -0.588288690936416,
           "title": "Finial",
-          "text": "At the apex of the cap is the finial. This a large deocrative ball made from solid oak with a lead covering. This type of cap decoration was rather common in the Oxfordshire area. The current finial is not the original, which was hit by lightning in the 1930s, and<div>when the new cap was constructed it was too decayed to be reused.</div><div><br></div><div>What was the original finial made of?</div><div>- Elm</div>"
+          "text": "At the apex of the cap is the finial. This a large deocrative ball made from solid oak with a lead covering. This type of cap decoration was rather common in the Oxfordshire area. The current finial is not the original, which was hit by lightning in the 1930s, and when the new cap was constructed it was too decayed to be reused."
         }
       ]
     },
@@ -98,7 +98,7 @@ var APP_DATA = {
           "yaw": -2.11847590639999,
           "pitch": -0.9708333605524988,
           "title": "Weather vane",
-          "text": "To aid the miller in turning the sails&nbsp;into the wind, mounted above the dormer is a weather vane. The restored weather vane on Wheatley mill is in the shape of a fiddle, an instrument closely linked to the Cripps family who own the mill."
+          "text": "To aid the miller in turning the sails into the wind, mounted above the dormer is a weather vane. The restored weather vane on Wheatley mill is in the shape of a fiddle, an instrument closely linked to the Cripps family who own the mill."
         }
       ]
     },

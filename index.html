@@ -1,0 +1,118 @@
+<!doctype html>
+    <html lang="en-GB">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Paul Jégou">
+        <link rel="stylesheet" type="text/css" href="css/accordion.css">
+        <title>Tour the Wheatley Windmill</title>
+    </head>
+
+    <body>
+
+        <header>
+            <h1>Tour the Wheatley Windmill</h1>
+            <p>Explore and learn about the mill and how it works. Just click on any of the sections below to get started...<br><br></p>
+        </header>
+
+        <section class="accordionItem close">
+            <h2 class="accordionItemHeading" id="tail">Cap Tail</h2>
+            <div class="accordionItemContent">
+                <iframe src="marzipano/tail.html" title="Cap Tail Virtual Tour"></iframe>
+            </div>
+        </section>
+        <section class="accordionItem close">
+            <h2 class="accordionItemHeading" id="dust">Dust Floor</h2>
+            <div class="accordionItemContent">
+                <iframe src="marzipano/dust.html" title="Dust Floor Virtual Tour"></iframe>
+            </div>
+        </section>
+        <section class="accordionItem close">
+            <h2 class="accordionItemHeading" id="bin">Bin Floor</h2>
+            <div class="accordionItemContent">
+                <iframe src="marzipano/bin.html" title="Bin Floor Virtual Tour"></iframe>
+            </div>
+        </section>
+        <section class="accordionItem close">
+            <h2 class="accordionItemHeading" id="stone">Stone Floor</h2>
+            <div class="accordionItemContent">
+                <iframe src="marzipano/stone.html" title="Stone Floor Virtual Tour"></iframe>
+            </div>
+        </section>
+        <section class="accordionItem close">
+            <h2 class="accordionItemHeading" id="meal">Meal Floor</h2>
+            <div class="accordionItemContent">
+                <iframe src="marzipano/meal.html" title="Meal Floor Virtual Tour"></iframe>
+            </div>
+        </section>
+        <section class="accordionItem close">
+            <h2 class="accordionItemHeading" id="exterior">Exterior</h2>
+            <div class="accordionItemContent">
+                <iframe src="marzipano/exterior.html" title="Exterior Virtual Tour"></iframe>
+            </div>
+        </section>
+
+        <aside>
+            <h2>Test your knowledge</h2>
+            <p>Have a go at some of these questions about features of the mill you saw in the tour.</p>
+
+            <h3>Cap Tail</h3>
+            <p>What was the original finial made of?</p>
+            <input id="finial" type="text">
+            <button onclick="finialAnswer()">Answer</button>
+            <p id="finialsolution"></p>
+            <p>The weather vane is in the shape of what musical instrument?</p>
+            <input id="vane" type="text">
+            <button onclick="vaneAnswer()">Answer</button>
+            <p id="vanesolution"></p>
+
+            <h3>Dust Floor</h3>
+            <p>How many cast iron rollers support the cap?</p>
+            <input id="rollers" type="text">
+            <button onclick="rollersAnswer()">Answer</button>
+            <p id="rollerssolution"></p>
+            <p>What are the cogs of the brake wheel and wallower made from?</p>
+            <input id="cogs" type="text">
+            <button onclick="cogsAnswer()">Answer</button>
+            <p id="cogssolution"></p>
+
+            <h3>Bin Floor</h3>
+            <p>Can you name the gears at both ends of the main shaft?</p>
+            <p>Top&nbsp;&nbsp;<input id="top" type="text">
+            <button onclick="topAnswer()">Answer</button></p>
+            <p id="topsolution"></p>
+            <p>Bottom&nbsp;&nbsp;<input id="bottom" type="text">
+            <button onclick="bottomAnswer()">Answer</button></p>
+            <p id="bottomsolution"></p>
+
+            <h3>Stone Floor</h3>
+            <p>What is the name of the large automated sieve that is used to refine the flour?</p>
+            <input id="sieve" type="text">
+            <button onclick="sieveAnswer()">Answer</button>
+            <p id="sievesolution"></p>
+            <p>What is the grain feed structure sometimes known as?</p>
+            <input id="grain" type="text">
+            <button onclick="grainAnswer()">Answer</button>
+            <p id="grainsolution"></p>
+
+            <h3>Exterior</h3>
+            <p>In which direction do the sails turn?</p>
+            <input id="sails" type="text">
+            <button onclick="sailsAnswer()">Answer</button>
+            <p id="sailssolution"></p>
+            <p>How may doors does the mill have?</p>
+            <input id="doors" type="text">
+            <button onclick="doorsAnswer()">Answer</button>
+            <p id="doorssolution"></p>
+
+            <br><br>
+
+        </aside>
+
+        <script src="js/accordion.js"></script>
+        <script src="js/questions.js"></script>
+
+    </body>
+
+</html>
